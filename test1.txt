@@ -8,6 +8,7 @@ sanket
 welcome to the git hub
 
 find /i "ECHO is off." \\10.115.90.16\KEPI-Storage2\PCOMM_NEW\pcomm1501_x64\20230811_GA\pluton\src\prod_int\win_32\log.enu\*.*
+find /i "isdev : error" \\10.115.90.16\KEPI-Storage2\PCOMM_NEW\pcomm1501_x64\20230811_GA\pluton\src\build\VS_build.log
 
 If you don't use /i, this command searches for exactly what you specify for string. 
 For example, this command treats the characters a and A differently. 
