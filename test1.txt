@@ -6,10 +6,15 @@ sanket
 
 
 welcome to the git hub
+
+find /i "ECHO is off." \\10.115.90.16\KEPI-Storage2\PCOMM_NEW\pcomm1501_x64\20230811_GA\pluton\src\prod_int\win_32\log.enu\*.*
+
 If you don't use /i, this command searches for exactly what you specify for string. 
 For example, this command treats the characters a and A differently. 
 If you use /i, however, the search becomes case insensitive, and it treats a and A as the same character.
 
+
+dir /b /a:-d /s 2> nul "\\10.115.90.16\KEPI-Storage2\PCOMM_NEW\pcomm1501_x64\20230811_GA\pluton\src\build\x64_symbols\mls" | find "" /v /c
 
 The command you provided is used to count the number of files in a directory and its subdirectories. The command dir /b /a:-d /s 2> null lists all files in the directory and its subdirectories. The /b switch specifies that only the file names should be displayed, while /a:-d specifies that only files should be displayed (not directories). /s specifies that the command should search subdirectories as well. The 2> null redirects any error messages to null so that they are not displayed on the screen. Finally, the find "" /v /c command counts the number of lines in the output of the previous command. Since each line corresponds to a file name, this gives you the total number of files in the directory and its subdirectories1
 
